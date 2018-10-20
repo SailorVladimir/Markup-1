@@ -1,0 +1,56 @@
+body,html{
+    font-family: Arial;
+}
+.section{
+    padding-top: 42px;
+    padding-bottom: 52px;
+}
+.section__col{
+
+}
+.section--dark{
+    color: #fff;
+    background-color: #445162;    
+}
+.section--header .container{
+    justify-content: space-between;   
+   }
+.container{
+    display: flex;
+    width: 1188px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.icon{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.icon--sm{
+
+} 
+.icon--check{
+    background-image: url(../images/check-icon.png);
+    width: 25px;
+    height: 18px;
+}
+.list{
+
+}
+.list--header{
+    font-size: 20px;
+    padding-left: 4px;
+} 
+.list--header li{
+    display: flex;
+    align-items: center;
+}
+.list--header li:not(:last-child){
+    margin-bottom: 16px;
+}
+.list--header li i{
+    margin-right: 10px;
+}

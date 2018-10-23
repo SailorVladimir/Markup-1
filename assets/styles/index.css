@@ -6,9 +6,12 @@ body,html{
     width: 1188px;
     margin: 0 auto;
 }
+.heder{
+    margin-top: 5px;
+}
 /*section*/
 .section{
-    padding-top: 42px;
+    padding-top: 43px;
     padding-bottom: 53px;
 }
 
@@ -17,6 +20,9 @@ body,html{
 }
 h2.section__title{
     margin-bottom: 26px;
+}
+h2.section__title-center{
+    text-align: center;
 }
 .section--header .container{
     justify-content: space-between;   
@@ -29,11 +35,15 @@ h2.section__title{
 
 }
 .section--light{ 
-    padding-top: 46px;
+    padding-top: 45px;
     background-color: #fff;    
 }
 .section--light .section__title{
     color: #445162;
+}
+.section--pink{
+    background-color: #f5f5f5;
+    color: #445161;
 }
 
 /*icon*/
@@ -49,6 +59,11 @@ h2.section__title{
     background-image: url(../images/check-icon.png);
     width: 25px;
     height: 18px;
+}
+.icon--cross{
+    background-image: url(../images/square-icon.png);
+    width: 115px;
+    height: 30px;
 }
 /*list*/
 .list{
@@ -74,8 +89,8 @@ h1{
     margin-bottom: 40px;
 }
 h2{
-
     font-size: 30px;
+    margin-bottom: 31px;
 }
 /*p*/
 p {
@@ -84,4 +99,7 @@ p {
 }
 p+p{
     margin-top: 11px;
+}
+ul{
+ 
 }

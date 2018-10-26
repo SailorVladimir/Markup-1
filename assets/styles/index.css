@@ -1,6 +1,9 @@
 body,html{
     font-family: Arial;
 }
+img{
+    background-color: #445161;
+}
 .container{
     display: flex;
     width: 1188px;
@@ -12,7 +15,7 @@ body,html{
 /*section*/
 .section{
     padding-top: 43px;
-    padding-bottom: 53px;
+    padding-bottom: 52px;
 }
 
 .section__col{
@@ -31,20 +34,25 @@ h2.section__title{
     background-color: #445162;
     color: #fff;
 }
+
 .section--dark .section__title{
 
 }
 .section--light{ 
-    padding-top: 45px;
-    background-color: #fff;    
+    padding-top: 46px;
+    background-color: #fff; 
+    color: #445162;   
 }
 .section--light .section__title{
-    color: #445162;
+
 }
 .section--pink{
     background-color: #f5f5f5;
     color: #445161;
     padding-top: 44px;
+}
+.subject{
+    padding-left: 17px
 }
 
 /*icon*/
@@ -54,8 +62,12 @@ h2.section__title{
     background-repeat: no-repeat;
 } 
 .icon--sm{
-
+    width: 30px;
+    height: 30px;
 } 
+.icon--md{
+
+}
 .icon--check{
     background-image: url(../images/check-icon.png);
     width: 25px;
@@ -63,13 +75,9 @@ h2.section__title{
 } 
 .icon--square{
     background-image: url(../images/cross-icon.png), url(../images/square-icon.png) ;
-    width: 30px;
-    height: 30px;
 }
 .icon--scrinshots{
     background-image: url(../images/scrinshots.png);
-    width: 30px;
-    height: 30px;
 }
 /*list*/
 .list{
@@ -112,6 +120,18 @@ ul.list.list--iconized li .icon.icon--square {
     margin-top: 0.4em;
     flex-shrink: 0;
 }
+.list--articles{
+
+}
+.list--articles li{
+    display: flex;
+    padding-bottom: 26px;
+}
+.list--articles li img{
+    width: 200px;
+    height: 150px;
+    flex-shrink: 0;
+}
 /*h1-h6*/
 h1{
     font-size: 60px;
@@ -119,10 +139,11 @@ h1{
 }
 h2{
     font-size: 30px;
-    margin-bottom: 31px;
+    margin-bottom: 28px;
 }
 h3{
     font-size: 24px;
+    padding-bottom: 11px;
 }
 /*p*/
 p {

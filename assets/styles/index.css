@@ -258,3 +258,96 @@ p+p{
     float: right;
 
 }
+.inform{
+
+}
+.inform input,
+.inform textarea {
+    width: 479px;
+    margin-bottom: 22px;
+    border: 0px;
+    border-radius: 5px;
+    display: block;
+    padding: 0px 11px;
+    font-size: 16px;
+}
+
+input{
+    height: 39px;
+}
+textarea{
+    height: 171px;
+}
+.buttons{
+    margin-left: 108px;
+    display: block;
+    border: 0px;
+    border-radius: 5px;
+}
+.inform{
+    margin-left: 203px;
+}
+.inform button{
+    width: 140px;
+    height: 40px;
+    background-color: #fff;
+    color: #445162;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+}
+.contacts{ 
+    display: flex;
+}
+.icon--skype{
+    background-image: url(../images/skype-icon.png);
+}
+.icon--icq{
+    background-image: url(../images/icq-icon.png);
+}
+.icon--email{
+   background-image: url(../images/email-icon.png);
+}
+.icon--phone{
+    background-image: url(../images/phone-icon.png);
+}
+.links{
+    margin-left: 41px;
+}
+.list-contacts{
+    
+}
+.icon--contacts{
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.list-contacts li{
+    padding: 0px 0px 13px 0px;
+    display: flex;
+    align-items: center;
+}
+.section--footer{
+    background-color: #f5f5f5;
+    font-size: 12px;
+    color: #445162;
+    text-align: center;
+    margin-top: 7px;
+}
+.logo{
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}
+ul .logo{
+    display: flex;
+    margin-right: 7px;
+}
+.site-icons ul{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 5px;
+}

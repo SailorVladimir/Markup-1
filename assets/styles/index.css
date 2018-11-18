@@ -512,7 +512,7 @@ ul .logo {
 
 @media (max-width: 576px) {}
 
-/* mobile first strategy */
+/* desktop third strategy */
 
 @media (max-width: 1200px) {}
 
@@ -536,3 +536,45 @@ ul .logo {
 }
 
 @media (max-width: 576px) {}
+
+/* desktop fourth strategy */
+
+@media (max-width: 1200px) {
+    .subject p{
+        font-size: 0.9rem;
+        line-height: 19px;
+    }
+    h3{
+        font-size: 1.4rem;
+        padding-bottom: 6px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    h3 {
+        font-size: 1.3rem;
+        padding-bottom: 2px;
+    }
+    .list--articles li img {
+        width: 150px;
+        height: 100px;
+        flex-shrink: 0;
+    }
+    .subject p{
+        
+        line-height: 13px;
+}
+
+@media (max-width: 768px) {
+    .section--scrinshots .container{
+        flex-direction: column;
+    }
+    .section--scrinshots .section__col:nth-child(1) {
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 576px) 
+

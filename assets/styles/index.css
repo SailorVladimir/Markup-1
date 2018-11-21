@@ -257,12 +257,12 @@ p+p {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    width: 1037px;
-    margin-left: 77px;
-
+    margin: auto
 }
 
 .cards__item {
+    margin-right: 23px;
+    margin-left: 23px;
     background-color: #445162;
     width: 298px;
     color: #ffffff;
@@ -596,25 +596,62 @@ ul .logo {
 
 /* desktop fifth strategy */
 
-@media (max-width: 1200px) {
-}
+@media (max-width: 1200px) {}
 
 @media (max-width: 992px) {
-    .ital{
+    .ital {
         font-size: 13px;
     }
-    .ital p{
+
+    .ital p {
         font-size: 13px;
     }
 }
 
 @media (max-width: 768px) {
-    .section--reviews .container{
+    .section--reviews .container {
         flex-direction: column;
     }
+
     .section--reviews .section__col:nth-child(1) {
         margin-bottom: 25px;
     }
 }
+
+@media (max-width: 576px) {}
+
+/* desktop sixth strategy */
+
+@media (max-width: 1200px) {
+    .cards {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .cards {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .cards__item {
+        margin-bottom: 25px;
+        width: 450px;
+    }
+
+    .cards__item>div:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .cards__item>div:nth-child(1) {
+        font-size: 45px;
+    }
+
+    .cards__item-content {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {}
 
 @media (max-width: 576px) {}

@@ -623,20 +623,21 @@ ul .logo {
 /* desktop sixth strategy */
 
 @media (max-width: 1200px) {
-    .cards {
-        margin-left: 0;
+    .cards__item {
+        margin-right: 5px;
+        margin-left: 5px;
     }
 }
 
 @media (max-width: 992px) {
     .cards {
         flex-direction: column;
-        margin: auto;
     }
 
     .cards__item {
         margin-bottom: 25px;
         width: 450px;
+
     }
 
     .cards__item>div:nth-child(1) {
@@ -653,5 +654,50 @@ ul .logo {
 }
 
 @media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+/* desktop seventh strategy */
+
+@media (max-width: 1200px) {
+    .contacts {
+        justify-content: center;
+    }
+
+    .inform {
+        margin: auto;
+
+    }
+
+    .links {
+        margin: auto;
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+
+
+    .inform input,
+    .inform textarea {
+        width: 350px;
+    }
+
+    .buttons {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contacts {
+        flex-direction: column;
+    }
+
+    .links {
+        margin: auto;
+        margin-top: 30px;
+    }
+}
 
 @media (max-width: 576px) {}
